@@ -5,12 +5,13 @@
 }
 .header{
     position: relative;
+    z-index: 1000;
     min-height: 100px;
     &__nav{
         position: fixed;
         width: 1440px;
         height: 100px;
-        background-color: #0E4C49;
+        background-color: #fff;
         ul{
             list-style-type: none;
             margin: 35px 0 0px 448px;
@@ -20,7 +21,7 @@
                 margin-right: 78px;
                 a{
                     text-decoration: none;
-                    color: white;
+                    color: #000;
                     text-transform: uppercase;
                     font-family: 'Righteous';
                     font-weight: 400;

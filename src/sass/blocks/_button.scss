@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold.ttf');
+    font-style: normal;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    background: $btn-color;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 35px;
+    cursor: pointer;
+    &_big{
+        width: 286px;
+        &::after{
+            content: "";
+            display: block;
+            position: absolute;
+            right: 38.5px;
+            top: 11px;
+            width: 52.5px;
+            height: 29px;
+            background: url('../../img/btn/arrow.svg');
+        }
+    }
+    &:hover{
+        box-shadow: 0 2px 5px #b9b5b5;
+    }
+    &:active{
+        box-shadow: 0px 2px 2px #b9b5b5;
+    }
+
+
+}
