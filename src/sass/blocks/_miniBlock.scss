@@ -1,0 +1,28 @@
+.mini{
+    min-height: 154px;
+    &__wrapper{
+        width: 100%;
+        height: 154px;
+        background-color: black;
+        position: relative;
+    }
+    &__text{
+        position: absolute;
+        width: 578px;
+        height: 81px;
+        top: 36px;
+        left: 312px;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Open Sans';
+        text-align: center;
+    }
+    &__link{
+        text-decoration: none;
+        color: $btn-color;
+    }
+    &__img{
+        position: absolute;
+        right: 312px;
+    }
+}

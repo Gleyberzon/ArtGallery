@@ -3,13 +3,35 @@
    padding: 0;
    box-sizing: border-box;
  }
+ @font-face {
+  font-family: 'Righteous';
+  src: local('Righteous'), url('../fonts/Righteous-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
  .container{
     position: relative;
     max-width: 1440px;
     margin: 0 auto;
+    // overflow: hidden;
+ }
+ body{
+  position: relative;
  }
  
  @import "base/variables";
+ @import "blocks/title";
+ @import "blocks/button";
  @import "blocks/header";
  @import "blocks/promo";
- @import "blocks/button";
+ @import "blocks/miniBlock";
+ @import "blocks/acrill";
+ @import "blocks/digital";
+ @import "blocks/footer";
+ @import "blocks/contact";
+ 
+ .active{
+  display: block;
+ }

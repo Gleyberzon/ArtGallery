@@ -1,8 +1,4 @@
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../fonts/OpenSans-Bold.ttf');
-    font-style: normal;
-}
+
 .btn{
     width: 200px;
     height: 50px;
@@ -16,6 +12,8 @@
     text-align: left;
     padding-left: 35px;
     cursor: pointer;
+    display: block;
+    position: relative;
     &_big{
         width: 286px;
         &::after{

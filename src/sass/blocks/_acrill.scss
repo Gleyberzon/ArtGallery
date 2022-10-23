@@ -1,0 +1,219 @@
+.acrill{
+    min-height: 3432px;
+    padding-top: 50px;
+    position: relative;
+    &__head{
+        margin-top: 39px;
+        height: 540px;
+        position: relative;
+        &__img{
+            width: 703px;
+            margin-top: 59px;
+        }
+        &__descr{
+            width: 618px;
+            height: 100%;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 180%;
+            position: absolute;
+            right: 43px;
+            top: 0;
+        }
+    }
+    &__ringpick{
+        width: 1245px;
+        height: 300px;
+        margin: 100px auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text{
+        width: 640px;
+        height: 108px;
+        margin: 100px auto 0 auto;
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 180%;
+        text-align: center;
+    }
+    &__circle{
+        &_up-left{
+            position: absolute;
+            width: 302px;
+            height: 302px;
+            top: 1048px;
+            left: 0px;
+            transform: translateX(-50%);
+            overflow: hidden;
+            z-index: 6;
+            img{
+                height: 302px;
+            }
+        }
+        &_up-right{
+            position: absolute;
+            width: 302px;
+            height: 302px;
+            top: 1060px;
+            right: 0px;
+            transform: translateX(50%);
+            overflow: hidden;
+            z-index: 6;
+            img{
+                height: 302px;
+            }
+        }
+        &_bottom-left{
+            position: absolute;
+            width: 302px;
+            height: 302px;
+            top: 2653px;
+            left: -180px;
+            overflow: hidden;
+            z-index: 6;
+            img{
+                height: 302px;
+            }
+            transform: rotate(-180deg);
+        }
+        &_bottom-right{
+            position: absolute;
+            width: 550px;
+            height: 550px;
+            right: 0px;
+            bottom: 0px;
+            transform: translate(58%, 50%);
+        }
+    }
+    &__rect__pictures{
+        margin: 100px auto 0 auto;
+        width: 1244px;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 1441px;
+            height: 51px;
+            border-radius: 50%;
+            background-color: white;
+            left: -115px;
+            top: -38px;
+            z-index: 5;
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            width: 1441px;
+            height: 51px;
+            border-radius: 50%;
+            background-color: white;
+            left: -115px;
+            top: 164px;
+            z-index: 5;
+        }
+    }
+    &__grid{
+        margin-top: 100px;
+        padding: 0 116px 0 116px;
+        display: grid;
+        grid-template-columns: 432px 660px;
+        justify-content: space-between;
+    }
+    &__descr{
+        &__photo{
+            margin: 123px auto 0 auto;
+            width: 150px;
+            height: 150px;
+            img{
+                border-radius: 50%;
+            }
+            &__title{
+                margin-top: 40px;
+            }
+            &__subtitle{
+                font-family: 'Open Sans';
+                font-style: normal;
+                display: block;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 180%;
+                margin-top: 5px;
+                text-align: center;
+            }
+        }
+        &__text{
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 180%;
+            margin-top: 47px;
+        }
+    }
+    &__pictures{
+        &_zurich{
+            width: 660px;
+            height: 500px;
+            img{
+                width: 100%;
+            }
+        }
+        &_pier{
+            width: 660px;
+            height: 500px;
+            margin-top: 28px;
+            img{
+                width: 100%;
+            }
+        }
+        &__title{
+            text-align: right;
+            margin-top: 24px;
+        }
+    }
+    &__footer{
+        margin-top: 100px;
+        &__pictures{
+            width: 1040px;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 183px 0 217px;
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                width: 1450px;
+                height: 72px;
+                background-color: white;
+                border-radius: 50%;
+                left: 50%;
+                transform: translateX(-50%);
+                top: -60px;
+            }
+            &::after{
+                content: '';
+                position: absolute;
+                width: 1450px;
+                height: 72px;
+                background-color: white;
+                border-radius: 50%;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: -60px;
+            }
+        }
+        &__btn{
+            margin: 67px auto 0 auto;
+
+        }
+    }
+}
